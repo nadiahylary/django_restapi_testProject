@@ -6,4 +6,4 @@ from drinks.models import Drink
 class DrinkSerializer(serializers.ModelSerializer):
     class Meta:
         model = Drink
-        fields = ['name', 'description', 'has_alcohol']
+        fields = '__all__'
